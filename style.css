@@ -3,3 +3,72 @@
 body{
 	background: grey;
 }
+
+a, 
+a:focus,
+a:hover {
+  color: #ccc;
+ }
+.btn-default, .btn-default:hover, .btn-default:focus {
+  color: #abc;
+  text-shadow: none;
+  background-color: #fff;
+  border: 3px solid #ccc;
+  }
+
+.quote {
+  font-size: 28px;
+  font-weight: bold;
+  }
+html, body {
+  height: 100%;
+  width: 100%;
+  background-image: url("http://img10.deviantart.net/81e2/i/2010/228/9/2/modern_background_by_syin3d.jpg");
+background-size: 100% auto;
+background-repeat: no-repeat;
+float: center;
+
+}
+body {
+  color: #ccc;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(0, 235, 4, 0.83);
+  font-size: 18px;
+}
+
+.site-wrapper {
+  display: table;
+  width: 100%;
+  min-height: 100%;
+    -webkit-box-shadow: inset 0 0 100px rgba(251,251,251,.3);
+          box-shadow: inset 0 0 100px rgba(255,255,255,.4);
+ 
+}
+
+.site-wrapper-inner {
+  display: cell;
+  vertical-align: top;
+  }
+
+.cover-container {
+  margin-right: 0px auto;
+  margin-left: 0px auto;  
+}
+.inner {
+  padding: 30px;  
+ }
+.cover {
+  padding: 10px;
+  
+}
+.cover .btn-lg {
+  padding: 10px 40px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.bottom {
+  color: #123;  
+  font-size: 16px;
+}
+
