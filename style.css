@@ -1,39 +1,54 @@
+.container {
+  border: 1px solid green;
+  width: 461px;
+  height: 350px;
+  margin: 100px 150px 0px 100px;
+  }
 
-button {
-  color: black;
-  background-color: #fff;
-  border: 3px solid #ccc;
-   height: 100%;
-  width: 20%;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin: 20px;
-  font-size: 29px;
-  font-style: italic;
-}
-
-
-html, body {
-  height: 100%;
-  width: 100%;
-  background-image: url("http://static.allbackgrounds.com/bg/colorful-solid.jpg");
-background-size: 100% auto;
-background-repeat: no-repeat;
-float: center;
-
-}
-body {
- color: #fff; 
+h2 {
+  font-family: Radio;
+  font-weight: bold;
   text-align: center;
- font-size: 18px;
+ color: #FAB74B;
+  padding: 10px 10px;
+  }
+
+/*this is where I need to put in the variable but have no idea how to make it match up, you know? */
+.quote-text {
+  text-align: center;
+  background-color: #FAB74B;
+  padding: 10px;
+  font-size: 14px;
+  font-style: italic;
+  margin: 40px;
+}
+.generator{
+ text-align: center;
 }
 
-.site-wrapper {
-  display: table;
-  width: 100%;
-  min-height: 100%;
- }
+.tweet-this { 
+  float: right;
+  padding-bottom: 40px;
+}
 
-.inner {
-  padding: 30px;}
+.twitter-handles 
+{
+  list-style-type:none;
+  float: left;
+  padding: 20px;
+}
 
+.btn.btn-primary.btn-lg {
+margin-left: 160px;
+}
+.tweet-this {
+  background-color: #FA9632;
+  height: 30px;
+  width: 100px;
+  padding: 0px 10px;
+  text-align: left;
+  }
+.row {
+  padding: 0px 30px;
+  margin: auto;
+}
