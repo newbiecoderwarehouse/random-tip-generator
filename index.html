@@ -3,19 +3,71 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Random Code Tip Generator</title>
+  <meta name="robots" content="noindex">
 	<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
 </head>
-
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
 <body>
 
-  <div class="site-wrapper">
-  <div class="inner">
-    <h3><font color="red">Random Quotes Rewritten</h3><br>
-   
-<button type onclick="myFunction()" type="button" class="btn btn-primary">Generate</button>
-    <p id="turtles"></p>
+
+
+<div class="top-bottom">
+</div>
+
+<div class="center">
+<div class="row">
+<div class="container-fluid">
+  <div class="col-xs-1"></div>
+  <!--MAIN CONTENT GOES BELOW-->
+  
+  
+  
+  <div class="col-xs-10 main-column">
+  <h2>Random Code Tip Generator</h2>
+        <p class="quote-text" id = "random-tip"></p>
+
+    <!-- BUTTON & TWEET -->
+ <div class="row">
+ <div class="container-fluid">
+  <div class="col-xs-4"></div>
+  <div class="col-xs-4"><button type="button" class="btn btn-lg tip-button" onclick="randomTip()">Random Tip</button></div>
+    <div class="col-xs-4"><div id="tweet-div"></div>
+      </div> </div> <!--row and container-fluid-->
+   <div class="row">
+  <div class="col-xs-4">
+    <div class="twitter-handle-section">
+         <ul class="twitter-handles">
+        <li><a href="https://twitter.com/rickagz" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @rickagz</a></li>
+        <li><a href="https://twitter.com/OldMansAdventur" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @OldMansAdventur</a></li>
+      </ul>
+ 
+    </div> <!--END OF TWITTER HANDLE SECTION-->
+  </div> <!--END OF COLUMN-->
+  
+  <!--IF WE DECIDE TO ADD EXTRA CONTENT-->   
+  <div class="col-xs-4"></div>
+  <div class="col-xs-4"></div>
+</div>
+
+      
+           
+     </div> <!-- End of Main content row -->               
+
+  
+  </div> <!--END OF MAIN CONTENT | CONTENT GOES ABOVE--> 
+  <div class="col-xs-1"></div>
+</div>
+  </div>
+</div>
+
+<div class="top-bottom">
+</div>
+
+<!-- Twitter Script -->
+<script>
+          !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+        </script>
     
 </body> 
 
