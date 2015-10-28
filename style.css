@@ -4,7 +4,7 @@
 /* .col-xs-4 {border: 5px solid yellow;} */
 .twitter-share-button {
   background: orange;
-  width:150px;
+  width:170px;
   height:38px;
     margin-top:24px;  
 
@@ -21,9 +21,8 @@
 }
 
 h2 {
-  font-family: Radio;
-  font-weight: bold;
- color: #FAB74B;
+font-family: 'Alegreya Sans', sans-serif;  font-weight: bold;
+  font-style: Italic;
   padding: 10px 10px;
   }
 
@@ -63,7 +62,6 @@ margin-left: 160px;
 /* Main Sections */
 .main-column{
   background:white;
-  border: 5px solid green;
 }
 /* Layout */
 .top-bottom {
@@ -84,6 +82,7 @@ html,body {
 }
 
 body {
-  background: url('http://rxsharp.github.io/css3-essentials/images/dark-bg.jpg') center no-repeat;
-  background-size:100% 100%;
+  background: url("http://newbiecoderwarehouse.github.io/random-tip-generator/img/agriculture-bg.jpg");
+  background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
