@@ -1,3 +1,4 @@
+//Main coding tips
 var arrayTips = [
 {"tip":"Design every page as a landing page."},
 {"tip":"Make appealing form buttons"},
@@ -18,3 +19,4 @@ rTipHighlight.style.display = "inline";
 document.getElementById("tweet-div").innerHTML='<a  href="https://twitter.com/intent/tweet?text=' + tweetText.replace(/\s+/g, "%20") + '" class="btn btn-lg twitter-share-button" id="tweetTip" data-size="large">Tweet</a>';
 
 }
+
