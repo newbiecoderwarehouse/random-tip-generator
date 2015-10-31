@@ -4,8 +4,13 @@ var arrayTips = [
 {"tip":"Make appealing form buttons"},
 {"tip":"Learn how to use google"},
  {"tip":"Dry = Don't Repeat Yourself"},
-  {"tip":"When starting a new project, design it in shades of gray and add color later"}
-  
+  {"tip":"When starting a new project, design it in shades of gray and add color later"},
+ {"tip":"Put a border and color in divs"},
+ {"tip":"Create a mockup via Wireframe"},
+ {"tip":"Communicate with your partners"},
+ {"tip":"Don't be afraid to google your questions"},
+ {"tip":"Lastly, have fun coding!"},
+
 ];
 
 //Random number from the length of the array AND display of coding tip
