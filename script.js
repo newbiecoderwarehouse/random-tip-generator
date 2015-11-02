@@ -5,11 +5,29 @@ var arrayTips = [
 {"tip":"Learn how to use google"},
  {"tip":"Dry = Don't Repeat Yourself"},
   {"tip":"When starting a new project, design it in shades of gray and add color later"},
- {"tip":"Put a border and color in divs"},
+ {"tip":"Never stop learning"},
  {"tip":"Create a mockup via Wireframe"},
  {"tip":"Communicate with your partners"},
  {"tip":"Don't be afraid to google your questions"},
- {"tip":"Lastly, have fun coding!"},
+ {"tip":"Find a routine"},
+ {"tip":"Find your zen. Become one with your code. And then watch your productivity rage"},
+ {"tip":"Watch youtube videos religiously"},
+ {"tip":"Comment on your code, so readers can understand"},
+ {"tip":"Learn Git and Github"},
+ {"tip":"Turn things off that will distract you!"},
+ {"tip":"Work with others"},
+ {"tip":"Create small projects daily"},
+ {"tip":"Set yourself apart from others "},
+ {"tip":"Have fun coding!"},
+ {"tip":"Be Prepared to Give Up Sleep"},
+{"tip":"Be active in online web developer forums"},
+ {"tip":"Never give up"},
+  {"tip":"Take a break when needed"},
+  {"tip":"Know your endgoal and believe in yourself"},
+
+
+
+
 
 ];
 
