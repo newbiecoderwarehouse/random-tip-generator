@@ -24,7 +24,9 @@ var arrayTips = [
  {"tip":"Never give up"},
   {"tip":"Take a break when needed"},
   {"tip":"Know your endgoal and believe in yourself"},
-
+//Each tip cannot exceed 102 characters. Example length limit below.
+//       :"Find your zen. Become one with your code. And then watch your productivity rage. Don't worry about it."
+//The reason the tip needs to be 108 characters: "#randomcodetips http://j.mp/gencx" is included in the tweet.
 
 
 
@@ -39,7 +41,7 @@ var tweetText = document.getElementById("random-tip").innerHTML = arrayTips[resu
 var rTipHighlight = document.querySelector("#random-tip");
 rTipHighlight.style.display = "inline";
 //Adding Twitter
-document.getElementById("tweet-div").innerHTML='<a  href="https://twitter.com/intent/tweet?text=' + tweetText.replace(/\s+/g, "%20") + '" class="btn btn-lg twitter-share-button" id="tweetTip" data-size="large">Tweet</a>';
+document.getElementById("tweet-div").innerHTML='<a  href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fj.mp/gencx&text=' + tweetText.replace(/\s+/g, "%20") + "+%23randomcodetips" + '" class="btn btn-lg twitter-share-button" id="tweetTip" data-size="large">Tweet</a>';
 
 }
 
