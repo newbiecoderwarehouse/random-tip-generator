@@ -33,6 +33,7 @@ font-family: 'Alegreya Sans', sans-serif;  font-weight: bold;
   font-size: 14px;
   font-style: italic;
   margin: 40px;
+  line-height: 36px;
 }
 
 .tweet-this { 
